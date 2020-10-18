@@ -17,7 +17,7 @@ class PredictTestLabelExecutor(Executor):
         table = input_list[0]
         t_env.register_function("predict", udf(f=PredictFunction(
             None), input_types=[DataTypes.STRING()], result_type=DataTypes.STRING()))
-        return [table.select('face_id, feature_data as label')]
+        return [table.select('face_id, predict(feature_data) as label')]
 
 
 class PredictFunction(ScalarFunction):

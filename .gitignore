@@ -1,8 +1,12 @@
 .idea
 *.iml
 
+__pycache__
+
 data_set/
 model
 logs/
 temp/
-__pycache__
+
+aiflow.db
+nohup.out

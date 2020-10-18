@@ -1,0 +1,8 @@
+.idea
+*.iml
+
+data_set/
+model
+logs/
+temp/
+__pycache__

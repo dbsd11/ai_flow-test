@@ -1,0 +1,4 @@
+export ENV_HOME=/Users/bdiao/src/python/ai_flow-test
+export TASK_ID=1
+export PYTHONPATH=$PYTHONPATH:./package/python_codes
+export FLINK_HOME=/Users/bdiao/third/flink-1.11.1
